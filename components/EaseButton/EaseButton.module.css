@@ -1,0 +1,15 @@
+.buttonWrapper {
+  height: 100%;
+  width: 100%;
+  border: 0px;
+  cursor: pointer;
+  outline: none;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  transition: 0.3s ease;
+}
+
+.buttonWrapper:hover {
+  transform: scale(1.05);
+  background-color: var(--bg-color-hover);
+}
