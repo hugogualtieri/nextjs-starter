@@ -1,6 +1,7 @@
 import Head from "next/head";
+import PropTypes from "prop-types";
 
-export default function CustomedHead(props) {
+const CustomedHead = (props) => {
   return (
     <Head>
       <title>{props.title}</title>
@@ -12,4 +13,11 @@ export default function CustomedHead(props) {
       />
     </Head>
   );
-}
+};
+
+CustomedHead.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
+
+export default CustomedHead;

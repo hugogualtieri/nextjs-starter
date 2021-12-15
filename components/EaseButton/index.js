@@ -1,5 +1,5 @@
 import styles from "./EaseButton.module.css";
-import { string } from "prop-types";
+import PropTypes from "prop-types";
 
 const EaseButton = ({
   className,
@@ -26,13 +26,13 @@ const EaseButton = ({
 };
 
 EaseButton.propTypes = {
-  className: string,
-  color: string,
+  className: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
 };
 
-EaseButton.defaultProps = {
+/*EaseButton.defaultProps = {
   className: "",
   color: "",
-};
+};*/
 
 export default EaseButton;
