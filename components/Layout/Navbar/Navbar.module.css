@@ -1,4 +1,21 @@
 .navbarWrapper {
   background-color: #ED6C52;
   height: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  align-items: center;
+}
+
+.title {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.link {
+  color: #FFFFFF;
+  min-width: 100px;
 }

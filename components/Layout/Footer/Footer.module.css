@@ -25,13 +25,14 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  row-gap: 10px;
 }
 
 .sectionTitle {
   color: #FFFFFF;
   font-size: 18px;
   margin: 0;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .link {

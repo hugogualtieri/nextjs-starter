@@ -6,8 +6,13 @@ import Layout from "./../components/Layout";
 export default function Home() {
   return (
     <div>
-      <CustomedHead title="NewsCoin | Home" description="" />
-      <Layout></Layout>
+      <CustomedHead
+        title="Site web | Home"
+        description="Bienvenue sur l'accueil de ce siteweb."
+      />
+      <Layout>
+        <div className={styles.wrapper}></div>
+      </Layout>
     </div>
   );
 }
