@@ -1,0 +1,10 @@
+.wrapper {
+  min-height: calc(100vh - 100px);
+  width: 100vw;
+}
+
+.buttonWrapper {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+}

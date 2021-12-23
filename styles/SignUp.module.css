@@ -1,0 +1,19 @@
+.wrapper {
+  min-height: calc(100vh - 100px);
+  width: 100vw;
+}
+
+.input {
+  border: 1px solid #CCCCCC;
+  height: 50px;
+  width: 100%;
+  min-width: 200px;
+  border-radius: 5px;
+  color: #444444;
+}
+
+.buttonWrapper {
+  margin-top: 20px;
+  width: 100px;
+  height: 40px;
+}
