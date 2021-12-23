@@ -6,7 +6,9 @@ I built this NextJS project to help everybody who wants to build a project with.
 
 For basic version: `npx create-next-app@latest -e https://github.com/hugogualtieri/nextjs-starter`
 
-You can also specify a branch: `npx create-next-app@latest -e https://github.com/hugogualtieri/nextjs-starter/tree/[branch]` as example to start a project from firebase branch: `npx create-next-app@latest -e https://github.com/hugogualtieri/nextjs-starter/tree/firebase`
+You can also specify a branch: `npx create-next-app@latest -e https://github.com/hugogualtieri/nextjs-starter/tree/[branch]`
+
+An example to start a project from a branch like 'firebase': `npx create-next-app@latest -e https://github.com/hugogualtieri/nextjs-starter/tree/firebase`
 
 ## Versions
 
