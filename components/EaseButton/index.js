@@ -30,9 +30,9 @@ EaseButton.propTypes = {
   color: PropTypes.string.isRequired,
 };
 
-/*EaseButton.defaultProps = {
+EaseButton.defaultProps = {
   className: "",
   color: "",
-};*/
+};
 
 export default EaseButton;
